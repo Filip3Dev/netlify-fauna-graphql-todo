@@ -9,7 +9,7 @@ import InputArea from "./components/InputArea"
 // import TodoItem from "./components/TodoItem"
 import "./login.css"
 
-import { useQuery, useMutation } from "react-apollo-hooks"
+import { useQuery } from "react-apollo-hooks"
 import gql from "graphql-tag"
 
 const NotFound = () => (
