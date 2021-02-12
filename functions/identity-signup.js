@@ -11,7 +11,7 @@ exports.handler = async function(event, context) {
   }).then(x => console.log({x}))
   .catch(err => console.log({err}))
   return {
-    statusCode: 200
+    statusCode: 200,
     body: JSON.stringify('hi')
   }
 }
